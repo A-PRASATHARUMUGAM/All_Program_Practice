@@ -7,6 +7,13 @@
 body{
     background-color: lightblue;
     font-family: cursive;
+    line-height: 2;
 }
 
+
+.example-box{
+    margin: 40px 20px;
+    padding:20px;
+    border: 1px solid  gray;
+}
 

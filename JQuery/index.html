@@ -9,12 +9,76 @@
 </head>
 <body>
   
-    
     <h2>1. JQuery Small Js Library</h2>
     <h2>2. Syntax & Complexity</h2>
     <h2>3. Connect JQuery</h2>
     <h2>4. Basic Syntax JQuery</h2>
+    <h2 id="selector">5. Selector </h2>
 
+    <ul>
+        <li>ID Selector</li>
+        <li>Class Selector</li>
+        <li>Element Selector</li>
+        <li>Attribute Selector</li>
+        <li>Value Selector</li>
+        <li>Partial Selector</li>
+    </ul>
+
+    <!--Example to Practice the Program  -->
+
+
+
+    <div class="example-box">
+
+
+
+        <!-- class selector  -->
+        <p class="classSelector">Content 1 </p>
+        <p class="classSelector">Content 2 </p>
+
+        <!-- Element Selector -->
+        <i>Kandhan </i>
+
+        <br>
+        <span>
+            <i>Sabarinathan</i>
+        </span>
+
+        <!-- Hidden Functionality  -->
+         <div>
+             <p class="hideclass">Hidden Functionality</p>    
+         </div>
+
+
+         <!-- Attribute Selector  -->
+          <form action="">
+            <input type="text" placeholder="Attribute Selector">
+            <br>
+        </form>
+
+        <!-- Value Selector  -->
+        <input title="practice value selector" type="text"  name="username"> 
+
+        <!-- Partial Selector -->
+         <br>
+         <a href="https://example.com">Partial Selector </a>
+         <br>
+         <a href="https://example.com">Partial Selector </a>
+         <br>
+         <a href="https://google.com">Partial Selector </a>
+
+        <!--Descendant Selector -->
+        <div class="container">
+
+            <p> It is Descendant Selector </p>
+        </div>
+
+        <!-- Child Selector  -->
+           <div class="container2">
+            <p> It is Child Selector </p>
+        </div>
+
+    </div>
 
 <script>    
 
@@ -30,7 +94,7 @@
         $('#myElement').text('Hello world');
 
         //JS Syntax
-        document.getElementById('myElement').textContent('Hello World');
+        // document.getElementById('selector').textContent('Hello World');
 
     //3. Connect JQuery 
 
@@ -39,12 +103,58 @@
 
     //4. Basic Syntax JQuery 
 
-         $('Selector').action();
+        //  $('Selector').action();
 
         // $        - Shortand JQuery Function call it means 
         // Selector - String to get HTML element 
         // action() - JQuery Method or function to peform work on the selected element 
 
+    //5. Selector 
+
+        // ID Selector 
+        $('#selector').text('5. Selector ');
+
+        // Class Selector 
+        $('.classSelector').text('it is class Selector');
+
+        $('.classSelector').css({'background-color':'lightcoral','color':'white'});
+
+        // Element Selector 
+        $('i').text('Element  Selector');
+
+        $('span > i').text('Element Selector ');
+
+                //Hide funct 
+        $('div > .hideclass').hide();  
+
+        // Attribute Selector
+        $('form > [placeholder]').css({'padding':'10px','background-color':'lightgreen'});
+
+        // Value Selector 
+        $('[name="username"]').val(" this is value Attribute ")
+
+
+        // Partical Value Selector 
+
+                //Select all word      
+        $('a[href*="example"]').css({"color":'red'});
+
+                //Select Starting word
+        $('a[href^="https://google"]').css({'color':'yellow'});
+
+        // Descendant Selector 
+        $('.container p').css({'color':'yellowgreen'});
+
+        //Child Selector 
+        $('.container2 > p').css({'color':'red'});
+
+        
+
+
+
+
+
+    //6. 
 
 
 </script>
