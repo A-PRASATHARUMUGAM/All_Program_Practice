@@ -1,23 +1,21 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Header from './Header';
+import Section from './Section';
+import Footer from './Footer';
+import RectCss from "./React_Applying_CSS";
 
 function App() {
 
-  function handlefunction(){
-      let arr=['Earn','Grow','Give'];
-
-   
-      let rand = Math.floor(Math.random()*3);
-
-      return arr[rand];
-
-  } 
 
   return (
 
    <div>
-      <p> Hello World </p> 
-      <p> Let's {handlefunction()} Money </p>
+      <h1 style={{textAlign:'center'}}>React Functional Components </h1>
+      <Header />
+      <Section />
+      <Footer />
+      <RectCss/>
    </div>
   );
 }
