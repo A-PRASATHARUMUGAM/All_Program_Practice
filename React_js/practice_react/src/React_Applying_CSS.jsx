@@ -16,7 +16,7 @@ let internalstyle= {backgroundColor:'yellow'}
 
     return (
         <div className='react_style'>
-                    <h1 style={{textAlign:'center'}}>React Applying CSS </h1>
+                    <h1 style={{textAlign:'center',color:'red'}}>React Applying CSS </h1>
 
                 <h1 className='react_external_style'>React External style </h1>
 

@@ -34,7 +34,7 @@ function showcurrentevent(event){
   
 return (
     <div>
-        <h1 style={{textAlign:'center'}}>React Click Events </h1>
+        <h1 style={{textAlign:'center',color:'red'}}>React Click Events </h1>
 
         <h2>Let's {handlefunction()} Money </h2>
          

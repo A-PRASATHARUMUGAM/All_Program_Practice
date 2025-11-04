@@ -5,6 +5,7 @@ import Section from './Section';
 import Footer from './Footer';
 import RectCss from "./React_Applying_CSS";
 import ReactEvents from "./React_Click_Events";
+import ReactUseState from "./React_useState_Hook";
 
 function App() {
 
@@ -12,12 +13,13 @@ function App() {
   return (
 
    <div>
-      <h1 style={{textAlign:'center'}}>React Functional Components </h1>
+
       <Header />
       <Section />
       <Footer />
       <RectCss/>
       <ReactEvents />
+      <ReactUseState /> 
    </div>
   );
 }

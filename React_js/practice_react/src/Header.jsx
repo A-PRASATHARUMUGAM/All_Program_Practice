@@ -4,9 +4,11 @@ const Header = () => {
 
 
   return (
-    <div className='Header' >
+    <div  >
 
-        <h1>Header Component</h1>
+      <h1 style={{textAlign:'center',color:'red'}}>React Functional Components </h1>
+
+        <h1 className='Header'>Header Component</h1>
 
     </div>
   )
