@@ -4,6 +4,7 @@ import Header from './Header';
 import Section from './Section';
 import Footer from './Footer';
 import RectCss from "./React_Applying_CSS";
+import ReactEvents from "./React_Click_Events";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Section />
       <Footer />
       <RectCss/>
+      <ReactEvents />
    </div>
   );
 }
