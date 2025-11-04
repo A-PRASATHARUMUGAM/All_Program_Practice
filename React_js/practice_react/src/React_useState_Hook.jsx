@@ -14,25 +14,33 @@ const ReactUseState=()=>{
 
    function incrementbtn(){
 
-       let data=count + 1;
-       setCount(data);
+       setCount(count + 1);
    }
 
      function decrementbtn(){
 
-                let data=count - 1;
-                setCount(data);
+                setCount(count - 1);
         }
 
 
+    
+        let [sname,setName]=useState("Hook") 
+
+        function statenamechange(data){
+            setName(data);
+        }
+
+
+  
 
     return (
  
-        
+         
         <div className="reactusestate">
 
-            <h1 style={{textAlign:'center',color:'red'}}>React_useState Hook </h1>
+            <h1 style={{textAlign:'center',color:'red'}}>React_useState {sname} </h1>
 
+            <button onClick={()=>statenamechange('Hook2')} >Change the Title</button> <br />
  
         {/* Using useState  */}
         <button onClick={()=>incrementbtn()}>+</button>
