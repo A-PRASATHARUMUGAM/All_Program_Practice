@@ -7,21 +7,23 @@ import ReactEvents from "./React_Click_Events";
 import ReactUseState from "./React_useState_Hook";
 import ReactListKeys from "./React_List_and_Keys";
 import ReactProps from "./React_Props_Prop_Drilling";
+import ReactControlledInput from "./React_Controlled_Inputs";
 
 function App() {
 
 
   return ( 
 
-   <div>
-      <Header />
+   <div>   
+      <Header   />
       <Section />
-      <Footer />
+      <Footer /> 
       <RectCss/>
       <ReactEvents />
       <ReactUseState /> 
       <ReactListKeys />
-      <ReactProps />
+      <ReactProps title="Prasath" />
+      <ReactControlledInput />
       
    </div>
   );
