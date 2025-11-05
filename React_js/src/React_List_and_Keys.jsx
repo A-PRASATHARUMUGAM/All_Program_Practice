@@ -9,8 +9,8 @@ const ReactListKeys=() =>{
 
 const [items, setItem]=useState( [
 
-        { 
-            id:1, 
+        {
+            id:1,
             check:true,
             item:"Movie"
         },
