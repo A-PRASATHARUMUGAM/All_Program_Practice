@@ -23,17 +23,15 @@ const ReactUseState=()=>{
         }
 
 
-    
+        
         let [sname,setName]=useState("Hook") 
 
         function statenamechange(data){
             setName(data);
         }
 
-
-  
-
-    return (
+        
+        return (
  
          
         <div className="reactusestate">
