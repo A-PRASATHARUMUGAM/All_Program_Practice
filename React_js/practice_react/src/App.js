@@ -6,6 +6,7 @@ import RectCss from "./React_Applying_CSS";
 import ReactEvents from "./React_Click_Events";
 import ReactUseState from "./React_useState_Hook";
 import ReactListKeys from "./React_List_and_Keys";
+import ReactProps from "./React_Props_Prop_Drilling";
 
 function App() {
 
@@ -13,7 +14,6 @@ function App() {
   return ( 
 
    <div>
-
       <Header />
       <Section />
       <Footer />
@@ -21,6 +21,8 @@ function App() {
       <ReactEvents />
       <ReactUseState /> 
       <ReactListKeys />
+      <ReactProps />
+      
    </div>
   );
 }
