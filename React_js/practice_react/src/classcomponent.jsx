@@ -25,5 +25,4 @@ class Apple extends React.Component{
 
 }
 
-
 export default Apple;
