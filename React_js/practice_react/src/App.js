@@ -15,7 +15,7 @@ function App() {
   return ( 
 
    <div>   
-      <Header   />
+      <Header   /> 
       <Section />
       <Footer /> 
       <RectCss/>
@@ -23,8 +23,7 @@ function App() {
       <ReactUseState /> 
       <ReactListKeys />
       <ReactProps title="Prasath" />
-      <ReactControlledInput />
-      
+      <ReactControlledInput />      
    </div>
   );
 }
