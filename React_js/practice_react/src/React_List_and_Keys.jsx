@@ -4,9 +4,6 @@ import { useState } from 'react';
 const ReactListKeys=() =>{
 
 
-    const arr=[1,2,3,4,5];
-
-
 const [items, setItem]=useState( [
 
         { 
@@ -14,7 +11,7 @@ const [items, setItem]=useState( [
             checked:false,
             item:"Movie"
         },
-        {
+        { 
             id:2,
             checked:true,
             item:"Book",
@@ -28,7 +25,7 @@ const [items, setItem]=useState( [
 
 function handlecheck(id){
 
-    let listitems=items.map((item)=> item.id==id? {...item,checked:!item.checked}:item);
+    let listitems=items.map((item)=> item.id===id? {...item,checked:!item.checked}:item);
 
     setItem(listitems);
     
@@ -51,28 +48,15 @@ function handledelete(id){
 
             <ul>
                 {items.map((item)=>(
-                
-                    <div>
-  
-                    <li key={item.id} >
-                         <input
-                          type="checkbox"
-                           checked={item.checked}
-                           onChange={()=>handlecheck(item.id)}
-                           
-                           />  
-                         <label htmlFor="" >{item.item}</label>  
-                         <button onClick={()=>handledelete(item.id)}>Delete</button>
+                    <li key={item.id}>
+                        <input type="checkbox"
+                               checked={item.checked}
+                               onChange={()=>handlecheck(item.id)} />
+                        <label>{item.item}</label>  
+                        <button onClick={()=>handledelete(item.id)}>Delete</button>
                     </li>
-     
-                    </div>   
-                
                 ))}
-               
             </ul>
-
-
-
 
         </div>
     ); 
