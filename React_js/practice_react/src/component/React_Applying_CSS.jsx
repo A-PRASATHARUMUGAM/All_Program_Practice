@@ -1,9 +1,9 @@
 import React from 'react';
 
 // 1. Implement the external style to React
-import "./App.css";
+import "../App.css";
 
-
+ 
 
 
 

@@ -1,15 +1,15 @@
-import "./App.css";
-import Header from './Header';
-import Section from './Section';
-import Footer from './Footer';
-import RectCss from "./React_Applying_CSS";
-import ReactEvents from "./React_Click_Events";
-import ReactUseState from "./React_useState_Hook";
-import ReactListKeys from "./React_List_and_Keys";
-import ReactProps from "./React_Props_Prop_Drilling"; 
-import ReactControlledInput from "./React_Controlled_Inputs";
-import Practicefunct from "./Practice_React";
-import Apple from "./classcomponent";
+import './App.css';
+import Header from './component/Header';
+import Section from './component/Section';
+import Footer from './component/Footer';
+import ReactCss from './component/React_Applying_CSS';
+import ReactEvents from './component/React_Click_Events';
+import ReactUseState from './component/React_Click_Events';
+import ReactListKeys from './component/React_List_and_Keys';
+import ReactProps from './component/React_Props_Prop_Drilling';
+import ReactControlledInput from './component/React_Controlled_Inputs';
+import Practicefunct from './component/Practice_React';
+import Apple from "./component/classcomponent";
 
 function App() {
 
@@ -23,7 +23,7 @@ function App() {
       <Header   /> 
       <Section />
       <Footer /> 
-      <RectCss/>
+      <ReactCss/>
       <ReactEvents />
       <ReactUseState /> 
       <ReactListKeys />
