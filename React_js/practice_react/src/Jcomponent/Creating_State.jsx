@@ -75,7 +75,6 @@ const  Createstate =()=>{
      })
         
 
-
         
     }
  
@@ -134,7 +133,7 @@ const  Createstate =()=>{
                   
                     <div>
                       <h4 className='sub-title'>5. Updating Arrays in State </h4>
-
+                      
                     </div>
 
 
