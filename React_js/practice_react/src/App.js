@@ -12,7 +12,7 @@ import Practicefunct from './component/Practice_React';
 import Apple from "./component/Classcomponent";
 
 // J Implement the Component 
-import CreateState from './Jcomponent/Creating_State';
+import CreateState from './Jcomponent/Creating_State';  
 
 function App() {
 
@@ -37,14 +37,7 @@ function App() {
       {/* JComponent Implement */}
 
       <CreateState />
-
-
-
-
-
-
-
-
+      
    </div>
   );
 }
