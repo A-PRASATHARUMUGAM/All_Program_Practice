@@ -9,4 +9,6 @@
     - PostCss to link
     
 
-2.
+2.Install Tailwind intelliSense
+
+3.

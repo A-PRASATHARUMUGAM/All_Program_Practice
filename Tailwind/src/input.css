@@ -1,2 +1,7 @@
 @import "tailwindcss";
 
+
+@theme{
+    --font-inter:'Inter','sans-serif';
+    --font-Momo:'Momo Signature','sans-serif';
+}

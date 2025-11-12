@@ -5,10 +5,21 @@
   :root, :host {
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-orange-400: oklch(75% 0.183 55.934);
+    --color-green-400: oklch(79.2% 0.209 151.711);
+    --color-blue-500: oklch(62.3% 0.214 259.815);
+    --color-pink-400: oklch(71.8% 0.202 349.761);
+    --color-white: #fff;
+    --spacing: 0.25rem;
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --font-inter: 'Inter','sans-serif';
+    --font-Momo: 'Momo Signature','sans-serif';
   }
 }
 @layer base {
@@ -160,6 +171,12 @@
   }
 }
 @layer utilities {
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
+  .mt-1\.5 {
+    margin-top: calc(var(--spacing) * 1.5);
+  }
   .table {
     display: table;
   }
@@ -172,6 +189,43 @@
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
+  }
+  .bg-blue-500 {
+    background-color: var(--color-blue-500);
+  }
+  .bg-green-400 {
+    background-color: var(--color-green-400);
+  }
+  .bg-orange-400 {
+    background-color: var(--color-orange-400);
+  }
+  .bg-pink-400 {
+    background-color: var(--color-pink-400);
+  }
+  .text-center {
+    text-align: center;
+  }
+  .font-Momo {
+    font-family: var(--font-Momo);
+  }
+  .font-inter {
+    font-family: var(--font-inter);
+  }
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
+  .text-white {
+    color: var(--color-white);
   }
   .underline {
     text-decoration-line: underline;
