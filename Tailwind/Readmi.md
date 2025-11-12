@@ -18,17 +18,20 @@
 
                 - <link href="./output.css" rel="stylesheet">
 
-                  <h1 class="text-3xl font-bold underline"> Hello World </h1>
-            
-   3. - Vite to link
-   4. - PostCss to link
+                  <h1 class="text-3xl font-bold underline"> Hello World </h1>      
+
+    3. - Vite to link
+    4. - PostCss to link
     
 
-2.Install Tailwind intelliSense
+2. Install Tailwind intelliSense
 
 3. Topic Cover 
 
     1. - Typography
-    2. - Text Size 
-            
-    3. - 
+    2. - Font Size 
+    3. - Different Font Sizes  
+    4. - Custom Font Size		  
+    5. - Other Font Classes 
+
+    
