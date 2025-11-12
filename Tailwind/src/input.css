@@ -2,6 +2,8 @@
 
 
 @theme{
+    --color-own:#24252a;
+    --text-10xl:150px;
     --font-inter:'Inter','sans-serif';
     --font-Momo:'Momo Signature','sans-serif';
-}
+}  

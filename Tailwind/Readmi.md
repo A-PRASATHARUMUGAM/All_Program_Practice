@@ -11,4 +11,9 @@
 
 2.Install Tailwind intelliSense
 
-3.
+3. Topic Cover 
+
+    1. - Typography
+    2. - Text Size 
+            
+    3. - 
