@@ -33,5 +33,10 @@
     3. - Different Font Sizes  
     4. - Custom Font Size		  
     5. - Other Font Classes 
+    6. - Color Background Color 
+    7. - Text Color
+    8. - Padding & Margin  
+    9. - Borders & Hover Effects 
+    10. -  
 
-    
+
