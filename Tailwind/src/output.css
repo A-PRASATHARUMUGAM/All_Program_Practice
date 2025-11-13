@@ -339,6 +339,9 @@
   .justify-center {
     justify-content: center;
   }
+  .rounded {
+    border-radius: 0.25rem;
+  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
@@ -775,6 +778,14 @@
       background-color: var(--color-blue-500);
     }
   }
+}
+.my-btn {
+  margin: calc(var(--spacing) * 2);
+  border-radius: 0.25rem;
+  background-color: var(--color-blue-500);
+  padding: calc(var(--spacing) * 2);
+  --tw-font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-medium);
 }
 @property --tw-border-style {
   syntax: "*";

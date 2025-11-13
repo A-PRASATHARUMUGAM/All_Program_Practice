@@ -31,4 +31,7 @@
 
 /* Using Apply Directive */
 
+.my-btn{
 
+    @apply p-2 bg-blue-500 rounded font-medium m-2;
+}
