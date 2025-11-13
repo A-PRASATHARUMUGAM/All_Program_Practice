@@ -8,6 +8,17 @@
 
 
 
+     /* <!-- Override Options --> */
+     
+
+    /* Responsive Design  */
+    /* --breakpoint-*: initial;
+    --breakpoint-tablet: 40rem;
+    --breakpoint-laptop: 64rem;
+    --breakpoint-desktop: 80rem;  */
+
+
+    /* color  */
     --color-own:#24252a;
     --text-10xl:150px;
 
@@ -15,3 +26,9 @@
     --font-inter:'Inter','sans-serif';
     --font-Momo:'Momo Signature','sans-serif';
 }  
+
+
+
+/* Using Apply Directive */
+
+
