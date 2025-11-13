@@ -16,12 +16,6 @@ h1{
     font-size: 20px;
 }
 
-
-.grid-container{
-    font-weight: bold;
-    border: 1px solid white;    
-}
-
 .grid-container>div{
     border: 1px solid white;
     padding: 10px;
@@ -35,3 +29,162 @@ h1{
 .grid-container>div:nth-child(odd){
     background-color: rgba(0, 190, 253, 0.795);
 }
+
+
+
+/* Starting  Grid  */
+
+/* CSS Grid 
+
+                       --- Container Properties ---
+
+    1.display
+
+    2.grid-template-columns
+    3.grid-template-rows
+    4.grid-template       <-- grid-template-rows / grid-template-colums
+
+    5.column-gap
+    6.row-gap
+    7.gap                 <-- row-gap + column-gap
+
+    8.justify-items       <-- align items Horizontal line
+    9.align-items         <-- align items Vertical  line
+    10.place-items        <-- ( align-items + justify-items )
+
+  
+    11.justify-content    <-- align content Horizontal line
+    12.align-content      <-- align content Vertical line
+    13.place-content      <-- ( aling-content + justify-content )
+
+    14.grid-auto-flow     <-- it change the direction row  or column
+
+    15.grid-auto-columns  <-- incress the column size
+    16.grid-auto-rows     <-- incress the row size
+
+
+
+                             --- Item Properties ---
+    
+    
+    17.grid-column-start   <-- start value to span column
+    18.grid-column-end     <-- end value to stop span 
+    19.grid-column         <-- ( grid-column-start + grid-column-end )
+
+    20.grid-row-start       <-- start value to span row
+    21.grid-row-end         <-- end value to stop span 
+    22.grid-row             <-- ( grid-row-start + grid-row-end )
+
+    23.justify-self  <-- it working to inside align-items 
+    24.align-self  
+    25.place-self   <-- ( align-self + justify-self )
+
+
+    26.grid-template-areas  <-- using container propertie - 1 
+    27.grid-area   <-- using Item propetie  - 2
+
+         (or)
+
+    27.grid-area  <--(row-start/column-start/row-end/column-end)
+
+    28.order
+
+
+*/
+
+
+.grid-container{
+
+      /* Complete grid Template column */
+    font-weight: bold;
+    border: 1px solid white;  
+    display: grid;
+    height: 450px;
+
+    /* Grid Template Column */
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-columns: repeat(4,50px);
+    grid-template-columns: repeat(3,auto) 50px;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-columns: repeat(4,minmax(100px,1fr));
+
+
+    /* Grid Template Column */
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-rows:repeat(3,50px);
+    grid-template-rows: repeat(3,1fr);
+
+
+    /* Grid Template - grid-template-column and grid-template-row */
+    grid-template: repeat(3,1fr)/ repeat(3,1fr);
+
+    
+
+
+
+
+    /* Gap  */
+    column-gap: 10px;
+
+    row-gap: 10px;
+
+    /* gap   row  column */
+    gap: 50px 10px ;
+
+    /* gap row + column  */
+    gap: 20px;
+
+
+
+
+    /* justify-items  Default */
+    justify-items: stretch;
+    align-items: stretch;
+
+    
+    /* justify-items  */
+    justify-items: center;
+
+    /* aling-items */    
+    align-items: center;
+
+    /* place-items align-item + justiy-content*/
+
+    place-items:  center start ;
+    place-items: center; 
+
+    /* justify-content  */
+
+    justify-content: center;
+
+}
+
+p{
+    margin:10px 20px;
+    border: 1px solid white;
+}
+
+.flex-container{
+    display: grid;
+    grid-template:repeat(3,50px)/repeat(4,50px);
+/* 
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:start;
+    flex-wrap: wrap; */
+    justify-content: center;
+    align-content: center;
+    border: 1px solid white; 
+
+ 
+}
+
+
+.flex-container>div{
+    border: 1px solid white;
+    padding: 10px;
+}
+
+
+
