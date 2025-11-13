@@ -780,6 +780,11 @@
       line-height: var(--tw-leading, var(--text-4xl--line-height));
     }
   }
+  .dark\:bg-blue-500 {
+    @media (prefers-color-scheme: dark) {
+      background-color: var(--color-blue-500);
+    }
+  }
   .dark\:bg-yellow-500 {
     @media (prefers-color-scheme: dark) {
       background-color: var(--color-yellow-500);
