@@ -25,6 +25,8 @@
     /* Font  */
     --font-inter:'Inter','sans-serif';
     --font-Momo:'Momo Signature','sans-serif';
+    --font-cedarville:'Cedarville', 'Cursive', 'cursive'; 
+
 }  
 
 
@@ -39,4 +41,4 @@
 body{
     background-color: #24252a;
     color: white;
-} 
+}

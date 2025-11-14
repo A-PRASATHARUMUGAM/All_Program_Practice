@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="/src/output.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Fleur+De+Leah&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Momo+Signature&display=swap');
+</style>
+
     <title>Landing Page</title>
 </head>
-<body class="bg-gray-100!">   
+<body class="bg-gray-200!  bg-[url('../Projects/Landing_page/img.jpg')] bg-center bg-cover bg-no-repeat bg-fixed ">    
+ 
 
-
-    <header  class="h-20 fixed left-0  right-0 flex  ">
+    <header  class=" flex justify-center items-center h-20  backdrop-blur-xs ">
     
-    
-        <nav class="   backdrop-blur-xs  w-full navbar flex items-center  justify-evenly" >
+        <nav class=" fixed left-0    right-0  w-full navbar flex items-center   justify-evenly  "  > 
        
-           <div class="log  m-2 flex-grow  ">   
+           <div class="log  m-2 flex-grow">   
             <a href="" class="font-bold text-2xl text-shadow-xs   text-shadow-amber-700 text-white">KANIGIRI</a>  
        </div>  
   
@@ -23,7 +26,7 @@
         <div class=" m-2">   
   
             <a href="" >    
-                <button  class=" bg-orange-400 pt-1 pb-1 px-3 rounded-full  font-bold" title="btn" type="button" > LOGIN </button>
+                <button  class=" bg-orange-400 pt-1 pb-1 px-3 rounded-full text-md font-medium" title="btn" type="button" > LOGIN </button>
             </a>
    
         </div>
@@ -47,40 +50,46 @@
 
     <!-- Main Container -->
  
-<section class="main-container border-2 border-amber-300 h-100 ">
+<section class="main-container  backdrop-blur-2xl   mt-12">
+  
+
+    
+<div class="bry-sub-container h-[600px] flex justify-   items-center md:c pt-2 pb-2 ">  
+   
+    <div class=" flex justify-center  ">
+        <img src="./img.jpg" class="rounded-4xl w-[90%] " alt="">
+    </div> 
+ 
+ <!-- Briyani Details Container  -->  
+   
+ <div class=" bry-details-container text-center backdrop-blur-md flex  flex-col justify-evenly  w-150 h-100 m-5 ">      
+  
+    <h1 class=" font-Momo text-6xl">Mutton Briyani </h1>  
+
+   
+    <div class="bry-desc-container text-justify   p-1 backdrop-blur-lg ">
+ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas tenetur eum tempora enim culpa iste optio a! Accusamus et culpa id architecto, exercitationem neque ex praesentium consequuntur deserunt illum deleniti!
+    </div>
+ 
+    <div class="order-btn-container flex justify-evenly"> 
+
+        <a href="">
+            <button title="btn" class="p-2  border-3 border-whtie rounded-full w-40 font-medium bg-orange-400">Order Now</button>  
+        </a>
+ 
+        <a href="">
+            <button title="btn" class="p-2 border-3 border-orange-400  rounded-full w-40 font-medium bg-white text-orange-400  ">Explore More</button>
+        </a>
 
 
+    </div>
 
-<div class="bry-sub-container">
-
-
- <!-- Briyani Img Container  -->
-<div class="bry-img-container">
-
-    <figure >
-
-
-        <img src="muttonbriyaniimg.jpg" alt=""> 
-
-
-        <figcaption></figcaption>
-
-    </figure>
-
-
-</div>
-
-
- <!-- Briyani Details Container  -->
-
- <div class="bry-details-container">
-
-
+ 
+ </div>
+ 
+ 
  </div>
 
-
-
-</div>
 
 
 </section>
