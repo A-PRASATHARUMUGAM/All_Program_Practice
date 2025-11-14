@@ -12,6 +12,7 @@
 
             2. import src/input.css
                 -@import "tailwindcss";
+
             3. npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
 
             4.add to src/index.html
@@ -37,6 +38,6 @@
     7. - Text Color
     8. - Padding & Margin  
     9. - Borders & Hover Effects 
-    10. -  
+    10. -
 
 
