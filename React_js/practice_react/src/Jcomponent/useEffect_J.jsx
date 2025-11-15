@@ -1,11 +1,11 @@
 import React from 'react'
 
 const useEffect_J = () => {
+    
+
   return (
     <div>
-        <h1>UseEffect is</h1>
-
-
+        <h4 style={{color:"yellow"}}>6.UseEffect </h4>
 
 
     </div>
