@@ -11,7 +11,7 @@ import ReactControlledInput from './component/React_Controlled_Inputs';
 import Practicefunct from './component/Practice_React';
 import Apple from "./component/Classcomponent";
 
-// J Implement the Component asfjasld;fjal;sdf
+// J Implement the Component
 import CreateState from './Jcomponent/Creating_State'; 
 import UseEffect_J from './Jcomponent/useEffect_J'; 
 
