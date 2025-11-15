@@ -8,7 +8,7 @@ class Apple extends React.Component{
        const {Appleinfo}=this.props;
        const {type,color}=Appleinfo;
 
-
+  
       return (
 
         <div>
