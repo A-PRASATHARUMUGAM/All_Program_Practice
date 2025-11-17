@@ -17,6 +17,7 @@ body{
 .main-title{
     text-align: center;
     margin: 10px; 
+    color: red;
 }
 
 .sub-title{

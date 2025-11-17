@@ -11,7 +11,7 @@
 
     <div class="main-container">
 
-
+<!-- 1. Setup & Configuration -->
 
     <h1 class="main-title">1. Setup & Configuration</h1>
 
@@ -46,6 +46,107 @@
     </ul>
 
  
+<!-- 2. Repository Initialization  -->
+
+    <h1 class="main-title">2. Repository Initialization</h1>
+
+
+
+      <h2 class="sub-title">git config --global init.defaultBranch main </h2>
+      <h2 class="sub-title">git init</h2>
+
+      <ul>
+        <li>Initializes a new Git repository in the current folder.</li>
+        <li><b>Use when: </b>Starting a new project.</li>
+      </ul>
+
+
+
+
+     <h2 class="sub-title">git clone "repo_url" </h2>
+
+     <ul>
+        <li>Copies an existing repository to your local system.</li>
+        <li><b>Use when:</b> You want to work on an existing remote repo (e.g., from GitHub).</li>
+     </ul>
+
+
+<!-- 3. Basic Workflow  -->
+
+   <h1 class="main-title">3. Basic Workflow</h1>
+
+
+      <!--git status  -->
+      <h2 class="sub-title">git status</h2>
+
+      <ul>
+        <li> Shows modified, staged, and untracked files.</li>
+        <li><b>Use when: </b> You want to check what changes have been made before committing.</li>
+      </ul>
+
+
+
+      <!-- git add  -->
+     <h2 class="sub-title">git add (filename)  </h2>
+
+     <ul>
+      
+        <li>  Stages a specific file for commit.</li>
+        <li><b>Use when:</b>  You want to include a file in the next commit.</li>
+     </ul>
+
+
+
+
+     <h2 class="sub-title">git add .  </h2>
+
+     <ul>
+        <li> Stages all modified and untracked files.</li>
+        <li><b>Use when:</b>  You want to commit all changes.</li>
+     </ul>
+
+
+        <!-- git commit  -->
+        <h2 class="sub-title">git commit -m "Your message"  </h2>
+
+     <ul>
+        <li> Commits staged changes with a message.</li>
+        <li><b>Use when:</b>You’ve staged your work and want to save it to the repo.</li>
+     </ul>
+
+
+        <!--git log   -->
+        <h2 class="sub-title">git log  </h2>
+
+     <ul>
+        <li>Shows commit history.</li>
+        <li><b>Use when:</b>Shows commit history.</li>
+     </ul>
+
+        <!--git show  <commit_id>  -->
+        <h2 class="sub-title">git show (commit_id) </h2>
+
+     <ul>
+        <li> Displays details of a specific commit.</li>
+        <li><b>Use when:</b>You want to inspect what changed in a commit.</li>
+     </ul>
+
+
+
+
+    <!--Commands  -->
+
+
+<!-- git commit -am "complete the github configure"
+ To stage changes and commit them in one command, you can use this:
+⚠️ Note: This will not include new (untracked) files. If you have new files, you must run git add . first
+
+
+git log - To your find your commit previous id 
+git checkout <commit id> - The your previous version 
+git checkout main - It is go to your current version 
+-->
+
 
 
     </div>
