@@ -8,4 +8,15 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #24252a;  
     color:rgb(0, 191, 255);
+    line-height: 1.5;
+} 
+
+.main-title{
+    text-align: center;
+    margin: 10px; 
+}
+
+.sub-title{
+    color: yellow;
+    margin-left:10px ;
 }
